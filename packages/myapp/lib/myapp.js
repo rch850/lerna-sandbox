@@ -2,6 +2,10 @@
 
 module.exports = myapp;
 
+const mylib = require('mylib')
+
 function myapp() {
-    // TODO
+    console.log(mylib())
 }
+
+myapp()

@@ -3,5 +3,5 @@
 module.exports = mylib;
 
 function mylib() {
-    // TODO
+    return 'My name is mylib'
 }
